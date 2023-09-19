@@ -1,0 +1,44 @@
+.abt-container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.about-text{
+    h4{
+        font-weight: 700;
+        font-size: 20px;
+        color: var(--gray);
+    }
+    p{
+       font-size: 14px;
+       font-weight: 400;
+       color: var(--gray);
+    }
+}
+.py-5{
+    padding: 5rem 0 !important;
+}
+
+@media screen and  (max-width: 640px){
+
+    .abt-container{
+      max-width: 350px;
+      .about-text{
+        h4{
+            font-weight: 700;
+            font-size: 16px;
+            color: var(--gray);
+        }
+        p{
+           font-size: 12px;
+           font-weight: 400;
+           color: var(--gray);
+        }
+       
+    }
+    }
+   
+}
+
+
+ 

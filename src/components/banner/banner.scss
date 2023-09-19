@@ -1,0 +1,53 @@
+.banner-container{
+    background: url('../../assets/banner.jpg');
+    width: max-width;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .number{
+        h2{
+            font-size: 60px;
+            font-weight: 700;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+}
+.b-container{
+    width: 600px;
+    margin: auto auto;
+   h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+   }
+   p{
+    font-size: 14px;
+    margin: 20px 0;
+   }
+}
+
+@media screen and  (max-width: 640px){
+
+    .b-container{
+        width: 300px;
+        p{
+            font-size: 12px !important;
+           }
+       
+    }
+    .banner-container{
+        height: 700px;
+    }
+    .number{
+        flex-direction: column;
+        h2{
+            font-size: 40px !important;
+            font-weight: 700;
+        }
+        p{
+            font-size: 13px !important;
+        }
+    }
+}

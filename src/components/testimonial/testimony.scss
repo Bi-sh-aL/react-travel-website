@@ -1,0 +1,53 @@
+.t-container{
+    margin: auto auto;
+    max-width: 1000px;
+    margin-top: -80px;
+    padding: 50px 0;
+}
+
+.t-slide{
+    img{
+        height:80px;
+        aspect-ratio: 1/1 !important;
+    }
+    h4{
+        font-size: 20px;
+        font-weight: 600;
+        color: #444444;
+    }
+    small{
+        font-size: 14px;
+        margin: 4px 0;
+        color: #444444;
+    }
+    .rank{
+        color: gold;
+        margin: 10px 0;
+        
+    }
+    .cmnt{
+        color: #444444;
+        font-size: 14px;
+    }
+}
+
+@media screen and  (max-width: 640px){
+    .t-container{
+        height: 390px;
+    }
+    .t-swiper{
+        height: 300px !important;
+        padding: 0 20px !important;
+        }
+
+}
+@media screen and  (max-width: 820px){
+    .t-container{
+        height: 390px;
+    }
+    .t-swiper{
+        height: 390px !important;
+        padding: 0 20px !important;
+        }
+
+}
