@@ -50,9 +50,9 @@ function Footer() {
               </button>
             </form>
           </div>
+          <small className="text-center text-light py-3">&copy; Copyright 2023</small>
         </div>
       </div>
-      <small>&copy;Copyright 2023</small>
     </footer>
   );
 }
